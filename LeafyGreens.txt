@@ -2,7 +2,7 @@ clc;
 clear;
 
 iterations=1000; %1000 iterations
-plant1=unidrnd(95,iterations,1)+25; %first planting range from day 25 to day 120 of the year
+plant1=unidrnd(95,iterations,1)+25; %first planting range from day 26 to day 120 of the year
 har1=plant1+unidrnd(11,iterations,1)+79; %growth takes 80-90 days from planting
 plant2=har1+unidrnd(8,iterations,1)+20; %second planting done after 21-28 days of field preparation
 har2=plant2+unidrnd(11,iterations,1)+79; %growth takes 80-90 days from planting
