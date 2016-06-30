@@ -1,8 +1,8 @@
 function trans = transferfn(val)
     if val<=0.619 
-        tr = 1; 
-    elseif vals>=0.619 && val<=0.946
-        tr = (340-1.3)*(val-0.619)/(0.946-0.619); 
+        trans = 1; 
+    elseif val>=0.619 && val<=0.946
+        trans = (340-1.3)*(val-0.619)/(0.946-0.619); 
     else 
-        tr = 340+((230000-340)*(val-0.946)/(1-0.946));
+        trans = 340+((230000-340)*(val-0.946)/(1-0.946));
     end
